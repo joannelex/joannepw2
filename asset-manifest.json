@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/myCozySpace/static/css/main.44d7c889.css",
+    "main.js": "/myCozySpace/static/js/main.a4b33dd1.js",
+    "static/media/avatar.svg": "/myCozySpace/static/media/avatar.26443c4cd0989d6443e202761d25145d.svg",
+    "static/media/headshot.png": "/myCozySpace/static/media/headshot.0055c361d26accd487ae.png",
+    "static/media/pw.png": "/myCozySpace/static/media/pw.54c61e672a1eb794617d.png",
+    "static/media/rooster.png": "/myCozySpace/static/media/rooster.99522aaf0d56fcaf0af5.png",
+    "static/media/wasteDown.png": "/myCozySpace/static/media/wasteDown.0b9c0c5a82b25c22fc73.png",
+    "static/media/crown.svg": "/myCozySpace/static/media/crown.45a1f569de0ae234eb71bd01638253b6.svg",
+    "index.html": "/myCozySpace/index.html",
+    "main.44d7c889.css.map": "/myCozySpace/static/css/main.44d7c889.css.map",
+    "main.a4b33dd1.js.map": "/myCozySpace/static/js/main.a4b33dd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44d7c889.css",
+    "static/js/main.a4b33dd1.js"
+  ]
+}
