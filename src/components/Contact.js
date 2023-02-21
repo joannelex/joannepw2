@@ -7,8 +7,8 @@ import github from '../assets/github.svg'
 
 export const Contact = () => {
     function handleMail() { window.open('mailto:joanne.jiwoo@gmail.com?')}
-    function handleLinkedin() { window.location.href = 'https://www.linkedin.com/in/joanne-lee-03a8901ab/'; }
-    function handleGithub() { window.location.href = 'https://github.com/joannelex'; }
+    function handleLinkedin() { window.open('https://www.linkedin.com/in/joanne-lee-03a8901ab/'); }
+    function handleGithub() { window.open('https://github.com/joannelex'); }
 
     return(
         <div className="contact-container">

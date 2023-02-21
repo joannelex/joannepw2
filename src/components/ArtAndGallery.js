@@ -29,7 +29,7 @@ export const ArtAndGallery = () => {
                     </div>
 
                     <div className='digital'>
-                        <img src={ magazine } className="digital-drawing" alt="magazine"/>
+                        <img src={ magazine } className="digital-drawing" alt="magazine" />
                         <img src={ mirror } className="digital-drawing" id="mirror" alt="mirror"/>
                         <img src={ jam } className="digital-drawing" id="jam" alt="jam"/>
                     </div>

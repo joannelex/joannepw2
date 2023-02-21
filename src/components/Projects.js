@@ -27,13 +27,13 @@ export const Projects = () => {
         pw ? document.getElementById('#pwImg').style.marginLeft = "100px" : document.getElementById('#pwImg').style.marginLeft = "-330px";
     }
 
-    function handlePwGithub() {window.location.href = 'https://github.com/joannelex/myCozySpace'; }
-    function handlePwFigma() {window.location.href = 'https://www.figma.com/file/c0P8zAGNhVRDML0WN0PbdD/Untitled?node-id=0%3A1&t=mXPCI3uKkhLymkdK-1'; }
-    function handleRoosterGithub() { window.location.href = 'https://github.com/joannelex/rooster'; }
-    function handleRoosterDevpost() {window.location.href = 'https://devpost.com/software/rooster-45y9sc';}
-    function handleWDGithub() {window.location.href = 'https://github.com/joannelex/Waste-Down';}
-    function handleWDDevpost() {window.location.href = 'https://devpost.com/software/wastedown'; }
-    function handleWDFigma() {window.location.href = 'https://www.figma.com/file/ixZM9ae5SXjGC1VrgjI9hB/HTN-(Copy)?node-id=0%3A1&t=udn2gne30oMRxljt-1'; }
+    function handlePwGithub() {window.open('https://github.com/joannelex/myCozySpace'); }
+    function handlePwFigma() {window.open('https://www.figma.com/file/c0P8zAGNhVRDML0WN0PbdD/Untitled?node-id=0%3A1&t=mXPCI3uKkhLymkdK-1'); }
+    function handleRoosterGithub() { window.open('https://github.com/joannelex/rooster'); }
+    function handleRoosterDevpost() {window.open('https://devpost.com/software/rooster-45y9sc');}
+    function handleWDGithub() {window.open('https://github.com/joannelex/Waste-Down');}
+    function handleWDDevpost() {window.open('https://devpost.com/software/wastedown'); }
+    function handleWDFigma() {window.open('https://www.figma.com/file/ixZM9ae5SXjGC1VrgjI9hB/HTN-(Copy)?node-id=0%3A1&t=udn2gne30oMRxljt-1'); }
 
 
    

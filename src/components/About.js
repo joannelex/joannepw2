@@ -3,9 +3,9 @@ import './About.css'
 import headshot from '../assets/headshot.png'
 
 export const About = () => {
-    function handleUBC() {window.location.href = 'https://www.ubc.ca/'};
-    function handleTrulioo() {window.location.href = 'https://www.trulioo.com/'};
-    function handleNwPlus() {window.location.href = 'https://nwplus.io/'};
+    function handleUBC() {window.open('https://www.ubc.ca/')};
+    function handleTrulioo() {window.open('https://www.trulioo.com/')};
+    function handleNwPlus() {window.open('https://nwplus.io/')};
 
     return(
         <div className="about-container">
