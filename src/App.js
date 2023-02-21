@@ -17,7 +17,7 @@ function App() {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Text+Me+One&display=swap" rel="stylesheet"></link>
       </head>
 
-      <div id="topnav">
+      <div id="home">
         <TopNav/>
       </div>
       <DateTime className='date-time-container'/>
@@ -59,7 +59,7 @@ function App() {
         joannelee © 2023 !
       </div>
 
-      <a href="#topnav">
+      <a href="#home">
         <button className='toTop'>
           <FontAwesomeIcon icon={faArrowUp} className="icons fa-xl"/>
         </button>
