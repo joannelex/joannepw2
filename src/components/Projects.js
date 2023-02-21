@@ -8,9 +8,9 @@ import { useState } from 'react'
 
 
 export const Projects = () => {
-    const [wasteDown, setWasteDown] = useState(false);
-    const [rooster, setRooster] = useState(false);
-    const [pw, setPw] = useState(false);
+    const [wasteDown, setWasteDown] = useState(true);
+    const [rooster, setRooster] = useState(true);
+    const [pw, setPw] = useState(true);
 
     function handleWasteDown() {
         setWasteDown(!wasteDown);
