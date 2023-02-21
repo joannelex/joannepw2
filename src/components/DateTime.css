@@ -1,5 +1,5 @@
 .time {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 17px;
     line-height: 24px;
     margin-left: 25px;
@@ -8,7 +8,7 @@
   }
 
   .date {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 17px;
     line-height: 24px;
     color: var(--icon-color);

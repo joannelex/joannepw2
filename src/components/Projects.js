@@ -26,6 +26,16 @@ export const Projects = () => {
         setPw(!pw);
         pw ? document.getElementById('#pwImg').style.marginLeft = "100px" : document.getElementById('#pwImg').style.marginLeft = "-330px";
     }
+
+    function handlePwGithub() {window.location.href = 'https://github.com/joannelex/myCozySpace'; }
+    function handlePwFigma() {window.location.href = 'https://www.figma.com/file/c0P8zAGNhVRDML0WN0PbdD/Untitled?node-id=0%3A1&t=mXPCI3uKkhLymkdK-1'; }
+    function handleRoosterGithub() { window.location.href = 'https://github.com/joannelex/rooster'; }
+    function handleRoosterDevpost() {window.location.href = 'https://devpost.com/software/rooster-45y9sc';}
+    function handleWDGithub() {window.location.href = 'https://github.com/joannelex/Waste-Down';}
+    function handleWDDevpost() {window.location.href = 'https://devpost.com/software/wastedown'; }
+    function handleWDFigma() {window.location.href = 'https://www.figma.com/file/ixZM9ae5SXjGC1VrgjI9hB/HTN-(Copy)?node-id=0%3A1&t=udn2gne30oMRxljt-1'; }
+
+
    
     return(
         <div className="projects-container">
@@ -42,9 +52,9 @@ export const Projects = () => {
                         <div className='project-description'>A virtual thrifting system aimed towards reducing clothing waste and fast-fashion.</div>
                         <div className='tech-stack'>SQL, React Native, Java, Firebase</div>
                         <div className='buttons-container'>
-                            <div className='project-button'>figma</div>
-                            <div className='project-button'>devpost</div>
-                            <div className='project-button'>github</div>
+                            <button className='project-button' onClick={ handleWDFigma}>figma</button>
+                            <button className='project-button' onClick={ handleWDDevpost }>devpost</button>
+                            <button className='project-button' onClick={ handleWDGithub }>github</button>
                         </div>
                     </div>
                 </div>
@@ -65,8 +75,8 @@ export const Projects = () => {
                         <div className='project-description'>personalized alarm system that uses machine learning to generate the most reactive alarm music.</div>
                         <div className='tech-stack'>SQL, React Native, Java, Firebase</div>
                         <div className='buttons-container'>
-                            <div className='project-button'>devpost</div>
-                            <div className='project-button'>github</div>
+                            <button className='project-button' onClick={handleRoosterDevpost}>devpost</button>
+                            <button className='project-button' onClick={handleRoosterGithub}>github</button>
                         </div>
                     </div>
                 </div>
@@ -84,8 +94,8 @@ export const Projects = () => {
                         <div className='project-description'>my cozy space- a creative space for me to showcase my growth as a developer.</div>
                         <div className='tech-stack'>React, CSS, JavaScript</div>
                         <div className='buttons-container'>
-                            <div className='project-button'>figma</div>
-                            <div className='project-button'>github</div>
+                            <button className='project-button' onClick={handlePwFigma}>figma</button>
+                            <button className='project-button' onClick={handlePwGithub}>github</button>
                         </div>
                     </div>
                 </div>
