@@ -1,5 +1,5 @@
 .art-container {
-    padding-left: 180px;
+    padding-left: 170px;
     display: flex;
     flex-direction: column;
 }
@@ -7,12 +7,12 @@
 .gallery-text {
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 8px;
     text-align: left;
-    width: 1150px;
+    width: 850px;
     color: white;
-    margin-left: 150px;
+    margin-left: 130px;
 }
 
 .gallery-container {
@@ -22,18 +22,18 @@
 }
 
 #ipad {
-    width: 500px;
+    width: 400px;
     border-radius: 30px;
 }
 
 .drawings {
     display: flex;
     flex-direction: column;
-    margin-left: 110px;
+    margin-left: 90px;
 }
 
 .sketch {
-    width: 280px;
+    width: 230px;
     border-radius: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left: -130px;
@@ -52,12 +52,12 @@
 .digital {
     display: flex;
     flex-direction: row;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .digital-drawing {
-    width: 280px;
-    height: 373.85px;
+    width: 230px;
+    height: 306.67px;
     border-radius: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -71,8 +71,8 @@
 }
 
 #jam{
-    width: 350px;
-    height: 262.5px;
+    width: 306.67px;
+    height: 230px;
     margin-left: -60px;
     margin-top: -40px;
 }

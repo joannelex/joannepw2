@@ -14,17 +14,17 @@ export const Projects = () => {
 
     function handleWasteDown() {
         setWasteDown(!wasteDown);
-        wasteDown ? document.getElementById('#wasteDownImg').style.marginLeft = "50px" : document.getElementById('#wasteDownImg').style.marginLeft = "-350px";
+        wasteDown ? document.getElementById('#wasteDownImg').style.marginLeft = "100px" : document.getElementById('#wasteDownImg').style.marginLeft = "-330px";
     }
 
     function handleRooster() {
         setRooster(!rooster);
-        rooster ? document.getElementById('#roosterImg').style.marginLeft = "50px" : document.getElementById('#roosterImg').style.marginLeft = "-350px";
+        rooster ? document.getElementById('#roosterImg').style.marginLeft = "100px" : document.getElementById('#roosterImg').style.marginLeft = "-330px";
     }
 
     function handlePw() {
         setPw(!pw);
-        pw ? document.getElementById('#pwImg').style.marginLeft = "50px" : document.getElementById('#pwImg').style.marginLeft = "-350px";
+        pw ? document.getElementById('#pwImg').style.marginLeft = "100px" : document.getElementById('#pwImg').style.marginLeft = "-330px";
     }
    
     return(

@@ -1,10 +1,10 @@
 .about-container {
     width: 70%;
-    height: 600px;
+    height: 510px;
     background: #FFFFFF;
     box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 20px 20px 0px;
-    padding-left: 170px;
+    padding-left: 150px;
     padding-right: 130px;
 
     display: flex;
@@ -13,19 +13,19 @@
 
 .about-text-container {
     text-align: right;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .hi {
     font-family: 'Text Me One', sans-serif;
-    font-size: 70px;
+    font-size: 65px;
     color: #EBBAB1;
 }
 
 .about-text {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .space {
@@ -34,10 +34,10 @@
 }
 
 .headshot {
-    width: 350px;
-    height: 373.22px;
-    margin-top: 110px;
-    margin-left: 130px;
+    width: 315px;
+    height: 335.9px;
+    margin-top: 80px;
+    margin-left: 110px;
 }
 
 .about-buttons {
