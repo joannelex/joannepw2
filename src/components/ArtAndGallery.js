@@ -14,9 +14,9 @@ export const ArtAndGallery = () => {
     return(
         <div className="art-container">
             <div className='gallery-text'>
-            The harmony between fine lines and colours never fail to amuse me. From landscapes to animals and figures, 
+            The harmony between fine lines and colours never fail to amuse me. From landscapes to animals, 
             I like to grab my pen and sculpt my mind on the paper during my free time. Lately, I’ve been into figure 
-            drawing- gere are some of my recent digital works!
+            drawing- ㅗere are some of my recent digital works!
             </div>
 
             <div className='gallery-container'>

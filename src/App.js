@@ -5,6 +5,7 @@ import { DateTime } from './components/DateTime';
 import { About } from './components/About';
 import { Projects } from './components/Projects';
 import { ArtAndGallery } from './components/ArtAndGallery';
+import { Contact } from './components/Contact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
 
@@ -30,22 +31,32 @@ function App() {
         <img src={ avatar } className="avatar" alt="avatar"/>
       </div>
 
-      <div id='about-page'>
+      <div id='about'>
         <div className='section-header'> &lt;about&gt; </div>
         <About/>
         <div className='section-header'> &lt;/ about&gt; </div>
       </div>
 
-      <div id='projects-page'>
+      <div id='projects'>
         <div className='section-header'> &lt;projects&gt; </div>
         <Projects/>
         <div className='section-header'> &lt;/ projects&gt; </div>
       </div>
 
-      <div id='artAndGallery-page'>
+      <div id='artAndGallery'>
         <div className='section-header'> &lt;artAndGallery&gt; </div>
         <ArtAndGallery />
         <div className='section-header'> &lt;/ artAndGallery&gt; </div>
+      </div>
+
+      <div id='contactMe'>
+        <div className='section-header'> &lt;contactMe&gt; </div>
+        <Contact />
+        <div className='section-header'> &lt;/ contactMe&gt; </div>
+      </div>
+
+      <div id='footer'>
+        joannelee © 2023 !
       </div>
 
       <a href="#topnav">

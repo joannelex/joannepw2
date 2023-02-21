@@ -1,0 +1,43 @@
+.contact-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.thanks {
+    font-family: 'Text Me One', sans-serif;
+    font-size: 90px;
+    color: white;
+}
+
+.thanks-container {
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-left: 350px;
+}
+
+#wave {
+    width: 340px;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-top: 140px;
+    padding-left: 40px;
+}
+
+.contact-icon {
+    width: 50px;
+    margin-bottom: 12px;
+}
+
+
+.contact-icon-button {
+    background: transparent;
+    border: none;
+}
+

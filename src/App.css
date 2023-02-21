@@ -99,11 +99,15 @@ html {
   margin-left: 230px;
 }
 
-#projects-page {
+#projects {
   margin-top: 100px;
 }
 
-#artAndGallery-page {
+#artAndGallery {
+  margin-top: 100px;
+}
+
+#contactMe {
   margin-top: 100px;
 }
 
@@ -130,4 +134,12 @@ html {
   right: 0;
   box-shadow: -9px 9px 9px rgba(0, 0, 0, 0.3);
   transition: all .2s;
+}
+
+#footer {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  font-family: 'Inter';
+  align-self: center;
 }
