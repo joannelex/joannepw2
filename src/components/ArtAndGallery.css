@@ -12,18 +12,20 @@
     text-align: left;
     width: 850px;
     color: white;
-    margin-left: 130px;
+    margin-left: 100px;
 }
 
 .gallery-container {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    align-self: center;
+    margin-top: 40px;
 }
 
 #ipad {
     width: 400px;
     border-radius: 30px;
+    margin-left: -110px;
 }
 
 .drawings {
