@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Text+Me+One&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito:wght@300;400&family=Text+Me+One&display=swap" rel="stylesheet"></link>
       </head>
 
       <div id="home">
@@ -56,7 +56,7 @@ function App() {
       </div>
 
       <div id='footer'>
-        joannelee © 2023 !
+        made with &lt;3 by joannelee © 2023
       </div>
 
       <a href="#home">

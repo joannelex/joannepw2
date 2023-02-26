@@ -6,12 +6,12 @@
 
 .thanks {
     font-family: 'Text Me One', sans-serif;
-    font-size: 90px;
+    font-size: 50px;
     color: white;
 }
 
 .thanks-container {
-    padding-top: 110px;
+    padding-top: 200px;
     display: flex;
     flex-direction: column;
     text-align: right;

@@ -13,7 +13,7 @@
 
 .about-text-container {
     text-align: right;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .hi {
@@ -23,9 +23,9 @@
 }
 
 .about-text {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .space {
@@ -37,7 +37,7 @@
     width: 315px;
     height: 335.9px;
     margin-top: 80px;
-    margin-left: 110px;
+    margin-left: 90px;
 }
 
 .about-buttons {
@@ -45,6 +45,7 @@
 }
 
 .about-button {
+    font-family: 'Nunito', sans-serif;
     padding: 12px 27px 12px 27px;
     min-width: fit-content;
     background: #EBBAB1;

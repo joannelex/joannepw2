@@ -3,6 +3,7 @@
     font-size: 17px;
     line-height: 24px;
     margin-left: 25px;
+    margin-right: 25px;
     color: var(--icon-color);
     transition: all .3s;
   }
@@ -23,7 +24,7 @@
     display:flex;
     flex-direction:column;
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: white;
-    align-items: center;
+    align-items: right;
   }

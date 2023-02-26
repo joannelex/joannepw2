@@ -91,7 +91,7 @@ html {
 
 
 .section-header {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: white;
   font-size: 25px;
   font-weight: 300;
@@ -140,6 +140,6 @@ html {
   color: white;
   padding-top: 100px;
   padding-bottom: 60px;
-  font-family: 'Inter';
+  font-family: 'Nunito', sans-serif;
   align-self: center;
 }
