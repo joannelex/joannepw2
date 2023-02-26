@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myCozySpace/static/css/main.9aed2aad.css",
+    "main.css": "/myCozySpace/static/css/main.cef3052e.css",
     "main.js": "/myCozySpace/static/js/main.247dc5d1.js",
     "static/media/avatar-headphone-dark.svg": "/myCozySpace/static/media/avatar-headphone-dark.c5a7ea62b9c2669ceff7d8b3fe53c925.svg",
     "static/media/ipad.svg": "/myCozySpace/static/media/ipad.a2e48403b75c76cefc851bd3b1dada37.svg",
@@ -21,11 +21,11 @@
     "static/media/mail.svg": "/myCozySpace/static/media/mail.af4acbdf09f70a73becc738fd68e309e.svg",
     "static/media/crown.svg": "/myCozySpace/static/media/crown.45a1f569de0ae234eb71bd01638253b6.svg",
     "index.html": "/myCozySpace/index.html",
-    "main.9aed2aad.css.map": "/myCozySpace/static/css/main.9aed2aad.css.map",
+    "main.cef3052e.css.map": "/myCozySpace/static/css/main.cef3052e.css.map",
     "main.247dc5d1.js.map": "/myCozySpace/static/js/main.247dc5d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aed2aad.css",
+    "static/css/main.cef3052e.css",
     "static/js/main.247dc5d1.js"
   ]
 }
