@@ -1,18 +1,27 @@
 import './App.css';
 import { TopNav } from './components/TopNav';
 import avatar from './assets/avatar.svg';
+import avatarDark from './assets/avatar-headphone-dark.svg';
 import { DateTime } from './components/DateTime';
 import { About } from './components/About';
 import { Projects } from './components/Projects';
 import { ArtAndGallery } from './components/ArtAndGallery';
 import { Contact } from './components/Contact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
+import { faArrowUp, faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
+import useLocalStorage from 'use-local-storage';
 
 function App() {
+  const [theme, setTheme] = useLocalStorage('light');
+  let isDark = (theme === 'dark') ? true : false;
+  const handleTheme = () => {
+      const newTheme = (theme === 'light') ? 'dark' : 'light';
+      isDark = (newTheme === 'dark') ? true : false;
+      setTheme(newTheme);
+  };
 
   return (
-    <div className="App">
+    <div className="App" data-theme={theme}>
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito:wght@300;400&family=Text+Me+One&display=swap" rel="stylesheet"></link>
       </head>
@@ -21,14 +30,16 @@ function App() {
         <TopNav/>
       </div>
       <DateTime className='date-time-container'/>
+      {isDark ? <button className='theme-button' onClick={handleTheme}><FontAwesomeIcon icon={faMoon} className="icons fa-xl"/></button> :
+                        <button className='theme-button' onClick={handleTheme}><FontAwesomeIcon icon={faSun} className="icons fa-xl"/></button>}
 
       <div className='main-page'> 
         <header className="App-header">
             <div id='greeting'>hey there (:</div>
-            <div id='intro'>my name is Joanne</div>
+            <div id='intro'>my name is Joanne,</div>
             <div id='description'>welcome to my cozy space.</div>
         </header>
-        <img src={ avatar } className="avatar" alt="avatar"/>
+        {isDark ? <img src={ avatarDark } className="avatar" alt="avatar"/> : <img src={ avatar } className="avatar" alt="avatar"/>}
       </div>
 
       <div id='about'>

@@ -42,7 +42,7 @@
     padding-right: 20px;
     margin-right: 22px;
     font-size: 14px;
-    color: #EBBAB1; 
+    color: var(--secondary); 
 }
 
 .nav-button:hover {

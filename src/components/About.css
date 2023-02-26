@@ -19,7 +19,7 @@
 .hi {
     font-family: 'Text Me One', sans-serif;
     font-size: 65px;
-    color: #EBBAB1;
+    color: var(--primary);
 }
 
 .about-text {
@@ -48,7 +48,7 @@
     font-family: 'Nunito', sans-serif;
     padding: 12px 20px;
     min-width: fit-content;
-    background: #EBBAB1;
+    background: var(--primary);
     border-radius: 13px;
     color: white;
     border: none;

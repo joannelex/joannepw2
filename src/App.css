@@ -3,31 +3,28 @@ html {
 }
 
 .App {
-  background-color: #EBBAB1;
+  background-color: var(--main);
   display: flex;
   flex-direction: column;
-
 }
 
-::-webkit-scrollbar {
-  background-color: #EBBAB1;
+/* ::-webkit-scrollbar {
+  background-color: var(--main);
   transition: all .3s;
   width: 12px;
   border-radius: 0px 0px 15px 0px;
 }
 ::-webkit-scrollbar-track {
-  background-color: #EBBAB1;
-  transition: all .3s;
+  background-color: var(--main);
   border-radius: 0px 0px 15px 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #cb968c;
+  background-color: var(--main);
   opacity: 0.2;
   scrollbar-width: thin;
   transition: all .3s;
   border-radius: 8px;
-
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -59,6 +56,15 @@ html {
   margin-left: 100px;
 }
 
+.theme-button {
+  background: transparent;
+  border: none;
+  color: white;
+  width: 20px;
+  align-self: center;
+  margin-top: 10px;
+}
+
 #greeting {
   font-size: 70px;
 }
@@ -72,10 +78,6 @@ html {
 .avatar {
   width: 500px;
   margin-left: -170px;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .date-time-container {
@@ -119,7 +121,7 @@ html {
   left: 92%;
   bottom: 60px;
 
-  background-color: #dfa394;
+  background-color: var(--secondary);
   box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
   border: none;

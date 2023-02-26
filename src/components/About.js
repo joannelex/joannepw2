@@ -13,12 +13,12 @@ export const About = () => {
                 <div className='hi'>hi,</div>
                 <div className='about-text'>Nice to see you here!</div>
                 <div className='about-text'>
-                    I’m Joanne, and I am a student developer, artist and a 3rd year computer science student at UBC.
+                    I’m Joanne (she/her), and I am a <b>student developer</b>, <b>artist</b> and a 3rd year <b>computer science student</b> at UBC.
                 </div>
                 <div className='space'></div>
                 <div className='about-text'>
-                    Currently, I am working as a Junior Software Engineer Intern @Trulioo. When I’m not coding,
-                    you can catch me with my fellow nwPlus members- organizing western Canada's biggest hackathons, 
+                    Currently, I am working as a <b>Junior Software Engineer Intern @Trulioo</b>. When I’m not coding,
+                    you can catch me with my fellow <b>nwPlus</b> members- organizing western Canada's biggest hackathons, 
                     at the pool, or catching the Vancouver sunset (:
                 </div>
                 

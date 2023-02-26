@@ -14,6 +14,21 @@ code {
 }
 
 :root {
-  background-color: #EBBAB1;
+  --main: #EBBAB1;
+  --primary: #EBBAB1;
+  --secondary: #cb968c;
+  --project-desc: #000000;
+  --project-tech-stack: white;
 }
+
+[data-theme='dark'] {
+  --main: #4E4666;
+  --primary: #9990B5;
+  --secondary:#9990B5;
+  --project-desc: white;
+  --project-tech-stack: #9990B5;
+}
+
+
+
 
