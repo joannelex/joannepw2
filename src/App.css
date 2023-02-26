@@ -6,6 +6,7 @@ html {
   background-color: var(--main);
   display: flex;
   flex-direction: column;
+  transition: none;
 }
 
 /* ::-webkit-scrollbar {
