@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/myCozySpace/static/css/main.cef3052e.css",
-    "main.js": "/myCozySpace/static/js/main.247dc5d1.js",
-    "static/media/avatar-headphone-dark.svg": "/myCozySpace/static/media/avatar-headphone-dark.c5a7ea62b9c2669ceff7d8b3fe53c925.svg",
+    "main.js": "/myCozySpace/static/js/main.92f68d80.js",
+    "static/media/avatar-headphone-dark.svg": "/myCozySpace/static/media/avatar-headphone-dark.a86f1c9a4f467b95e8931f7647b9a6e4.svg",
     "static/media/ipad.svg": "/myCozySpace/static/media/ipad.a2e48403b75c76cefc851bd3b1dada37.svg",
     "static/media/jam.png": "/myCozySpace/static/media/jam.f7a1f521e2427306451b.png",
-    "static/media/avatar.svg": "/myCozySpace/static/media/avatar.26443c4cd0989d6443e202761d25145d.svg",
+    "static/media/avatar.svg": "/myCozySpace/static/media/avatar.870220ca8bce61a7818266e60be8b13e.svg",
     "static/media/magazine.png": "/myCozySpace/static/media/magazine.5115416313ef44fa6923.png",
     "static/media/rose.png": "/myCozySpace/static/media/rose.13aeadf0878f48dc4562.png",
     "static/media/mirror.png": "/myCozySpace/static/media/mirror.68f3f6341ef45a592582.png",
@@ -22,10 +22,10 @@
     "static/media/crown.svg": "/myCozySpace/static/media/crown.45a1f569de0ae234eb71bd01638253b6.svg",
     "index.html": "/myCozySpace/index.html",
     "main.cef3052e.css.map": "/myCozySpace/static/css/main.cef3052e.css.map",
-    "main.247dc5d1.js.map": "/myCozySpace/static/js/main.247dc5d1.js.map"
+    "main.92f68d80.js.map": "/myCozySpace/static/js/main.92f68d80.js.map"
   },
   "entrypoints": [
     "static/css/main.cef3052e.css",
-    "static/js/main.247dc5d1.js"
+    "static/js/main.92f68d80.js"
   ]
 }
