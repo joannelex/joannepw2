@@ -1,46 +1,64 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Projects.css'
-import wasteDownImg from '../assets/wasteDown.png'
-import roosterImg from '../assets/rooster.png'
-import crown from '../assets/crown.svg'
-import pwImg from '../assets/pw.png'
-import { useState } from 'react'
+import { Swe } from './swe.js'
+import { Design } from './design.js'
+// import wasteDownImg from '../assets/waste-down-mockup.svg'
+// import roosterImg from '../assets/rooster-mockup.svg'
+// import navImg from '../assets/nav_mockup.svg'
+// import crown from '../assets/crown.svg'
+// import pwImg from '../assets/pw_mockup.svg'
+// import { useState } from 'react'
 
 
 export const Projects = () => {
-    const [wasteDown, setWasteDown] = useState(true);
-    const [rooster, setRooster] = useState(true);
-    const [pw, setPw] = useState(true);
+    const [isDesign, setShowDesign] = useState(true);
 
-    function handleWasteDown() {
-        setWasteDown(!wasteDown);
-        wasteDown ? document.getElementById('#wasteDownImg').style.marginLeft = "100px" : document.getElementById('#wasteDownImg').style.marginLeft = "-330px";
+    function handleShowDesign() {
+        setShowDesign(!isDesign);
     }
+    // const [wasteDown, setWasteDown] = useState(true);
+    // const [rooster, setRooster] = useState(true);
+    // const [pw, setPw] = useState(true);
 
-    function handleRooster() {
-        setRooster(!rooster);
-        rooster ? document.getElementById('#roosterImg').style.marginLeft = "100px" : document.getElementById('#roosterImg').style.marginLeft = "-330px";
-    }
+    // function handleWasteDown() {
+    //     setWasteDown(!wasteDown);
+    //     wasteDown ? document.getElementById('#wasteDownImg').style.width = "100px" : document.getElementById('#wasteDownImg').style.marginLeft = "-330px";
+    // }
 
-    function handlePw() {
-        setPw(!pw);
-        pw ? document.getElementById('#pwImg').style.marginLeft = "100px" : document.getElementById('#pwImg').style.marginLeft = "-330px";
-    }
+    // function handleRooster() {
+    //     setRooster(!rooster);
+    //     rooster ? document.getElementById('#roosterImg').style.marginLeft = "100px" : document.getElementById('#roosterImg').style.marginLeft = "-330px";
+    // }
 
-    function handlePwGithub() {window.open('https://github.com/joannelex/myCozySpace'); }
-    function handlePwFigma() {window.open('https://www.figma.com/file/c0P8zAGNhVRDML0WN0PbdD/Untitled?node-id=0%3A1&t=mXPCI3uKkhLymkdK-1'); }
-    function handleRoosterGithub() { window.open('https://github.com/joannelex/rooster'); }
-    function handleRoosterDevpost() {window.open('https://devpost.com/software/rooster-45y9sc');}
-    function handleWDGithub() {window.open('https://github.com/joannelex/Waste-Down');}
-    function handleWDDevpost() {window.open('https://devpost.com/software/wastedown'); }
-    function handleWDFigma() {window.open('https://www.figma.com/file/ixZM9ae5SXjGC1VrgjI9hB/HTN-(Copy)?node-id=0%3A1&t=udn2gne30oMRxljt-1'); }
+    // function handlePw() {
+    //     setPw(!pw);
+    //     pw ? document.getElementById('#pwImg').style.marginLeft = "100px" : document.getElementById('#pwImg').style.marginLeft = "-330px";
+    // }
 
+    // function handlePwGithub() {window.open('https://github.com/joannelex/myCozySpace'); }
+    // function handlePwFigma() {window.open('https://www.figma.com/file/c0P8zAGNhVRDML0WN0PbdD/Untitled?node-id=0%3A1&t=mXPCI3uKkhLymkdK-1'); }
+    // function handleRoosterGithub() { window.open('https://github.com/joannelex/rooster'); }
+    // function handleRoosterDevpost() {window.open('https://devpost.com/software/rooster-45y9sc');}
+    // function handleWDGithub() {window.open('https://github.com/joannelex/Waste-Down');}
+    // function handleWDDevpost() {window.open('https://devpost.com/software/wastedown'); }
+    // function handleWDFigma() {window.open('https://www.figma.com/file/ixZM9ae5SXjGC1VrgjI9hB/HTN-(Copy)?node-id=0%3A1&t=udn2gne30oMRxljt-1'); }
 
    
     return(
         <div className="projects-container">
+            <div className='toggle-container'>
+                <div className='title'>swe</div>
+                <label className="toggle">
+                    <input type="checkbox" checked={isDesign} onChange={handleShowDesign}/>
+                    <span className="slider"/>
+                </label>
+                <div className='title'>design</div>    
+            </div>
+            <div className='caption'>Weaving digital tapestries with the threads of logic.</div>  
 
-            <div className='project'>
+            {isDesign ? <Design /> : <Swe />}
+            
+            {/* <div className='project'>
                 <img src={ wasteDownImg } className="project-img" id='#wasteDownImg' alt="wasteDown"/>
                 <div className='number'>01</div>
                 <div className='title-container' onClick={handleWasteDown}>
@@ -99,7 +117,7 @@ export const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

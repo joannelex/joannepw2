@@ -10,6 +10,7 @@ import { Contact } from './components/Contact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUp, faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
 import useLocalStorage from 'use-local-storage';
+// import { Box } from '@chakra-ui/react';
 
 function App() {
   const [theme, setTheme] = useLocalStorage('light');
@@ -39,8 +40,15 @@ function App() {
             <div id='intro'>my name is Joanne,</div>
             <div id='description'>welcome to my cozy space.</div>
         </header>
-        {isDark ? <img src={ avatarDark } className="avatar" alt="avatar"/> : <img src={ avatar } className="avatar" alt="avatar"/>}
+        <img src={ isDark ? avatarDark : avatar} className="avatar" alt="avatar"/>
       </div>
+
+      {/* <Box 
+      display="flex"
+      flexDirection={{ base: "column", sm: "row" }}
+      width={{base: "20px", md: "100px", lg: "200px"}}
+      backgroundColor={{base: "pink", md: "red", lg: "blue"}}
+      >Hello joane</Box> */}
 
       <div id='about'>
         <div className='section-header'> &lt;about&gt; </div>
