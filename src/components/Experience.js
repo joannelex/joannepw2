@@ -26,6 +26,7 @@ export const Experience = () => {
                         <ul>
                             <li>Developing a new program onboarding service initiated from SQS notification, using AWS CDK to deploy ECS/Fargate, Lambda, and CloudWatch to streamline the logic for over 300 updates/month</li>
                             <li>Exposing internal program data through Smithy APIs, enabling secure access for external services via a gateway</li>
+                            <li>Optimizing the service with VPC, load balancers, and AppConfig, ensuring high security, availability, and seamless configuration</li>
                         </ul>
                     </div>
                 </div>
