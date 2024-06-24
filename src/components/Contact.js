@@ -16,20 +16,30 @@ export const Contact = () => {
         <div className="contact-container">
             {/* <img src={ wave } id="wave" alt="wave"/> */}
             <div className='contact-text-container'>
-                <div className='contact-text'>Id love to talk to you more about our interests, career and anything else that sparks a light in our intriguing concept of  mind. 
+                <div className='contact-text'>
+                    Id love to talk to you more about our interests, career and anything else that sparks a light in our intriguing concept of  mind. 
                     Who knows? Maybe the lone, silly question from our light conversation can mark a beginning of some history.
                 </div>
-
-                <div className='thanks-container'>
-                    <div className='thanks'>thanks for visiting!</div>
-            </div>
            </div>
+           
            <div className='contact-icons'>
-                <button className="contact-icon-button"><img src={ mail } className="contact-icon" alt="mail" onClick={handleMail}/></button>
+                <div className='contact-icon-container'>
+                    <button className="contact-icon-button"><img src={ mail } className="contact-icon" alt="mail" onClick={handleMail}/></button>
+                </div>
+                <div className='contact-icon-container'>
                 <button className="contact-icon-button"><img src={ linkedin } className="contact-icon" alt="linkedin" onClick={handleLinkedin}/></button>
+                </div>
+                <div className='contact-icon-container'>
                 <button className="contact-icon-button"><img src={ github } className="contact-icon" alt="github" onClick={handleGithub}/></button>
+                </div>
+                <div className='contact-icon-container'>
                 <button className="contact-icon-button"><img src={ spotify } className="contact-icon" alt="spotify" onClick={handleSpotify}/></button>
+                </div>
            </div>
+
+           <div className='thanks-text'>
+                Thanks for visitng!
+            </div>
         </div>
     )
 }

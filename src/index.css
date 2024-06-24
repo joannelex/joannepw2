@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Syne:wght@400..800&display=swap');
+
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,6 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  width: fit-content;
 }
 
 code {
@@ -14,20 +18,24 @@ code {
 }
 
 :root {
-  --main: #EBBAB1;
-  --primary: #EBBAB1;
-  --secondary: #cb968c;
-  --project-desc: #503B37;
+  --primary-font: "quickSand", sans-serif;
+  --secondary-font: "Syne", sans-serif;
+  --inner-neum: -4px -4px 4px 0px #FFF inset, 4px 4px 4px 0px rgba(166, 180, 200, 0.75) inset;
+  --neum: -5px -5px 5px #fafafadb, 5px 5px 5px rgba(166, 180, 200, 0.75);
+  --main: #E9EEF1;
+  --primary: #E9EEF1;
+  --secondary: #5D5D5D;
+  --project-desc: #5D5D5D;
   --project-tech-stack: white;
 }
 
-[data-theme='dark'] {
-  --main: #4E4666;
+/* [data-theme='dark'] {
+  --main: #5D5D5D;
   --primary: #9990B5;
   --secondary:#9990B5;
   --project-desc: white;
   --project-tech-stack: #9990B5;
-}
+} */
 
 
 

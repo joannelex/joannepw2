@@ -1,0 +1,81 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.internship-conatiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.internship-header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    font-family: var(--primary-font);
+}
+
+.internship-header {
+    display:flex;
+    flex-direction: row;
+}
+
+.internship-title {
+    font-weight: 800;
+    color: var(--secondary);
+}
+
+.internship-position {
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.internship-logo {
+    width: 100px;
+    height: 85px;
+    margin-right: 20px;
+}
+
+#internship-logo-SAP {
+    width: 100px;
+    height: 62px;
+    margin-right: 20px;
+}
+
+#amazon {
+    color: #F39B19;
+}
+
+#sap {
+    color: #0096DE;
+}
+
+#trulioo {
+    color: #1E8383;
+}
+
+.internship-date {
+    color: var(--secondary);
+    font-weight: 500;
+    padding: 10px 20px;
+    box-shadow: var(--inner-neum);
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+.internship-description {
+    color: var(--secondary);
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 500;
+}

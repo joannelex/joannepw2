@@ -35,21 +35,15 @@ html {
 .main-page {
   display: flex;
   flex-direction: row;
-  align-self: center;
+  align-items: center;
+  min-height: 85vh;
+  justify-content: center;
 }
 
 .App-header {
-  /* font-family: 'Inter', sans-serif; */
-  font-family: 'Text Me One', sans-serif;
-  z-index: 1;
-  min-height: 85vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  margin-left: 100px;
+  align-items: flex-end;
 }
 
 .theme-button {
@@ -62,18 +56,28 @@ html {
 }
 
 #greeting {
-  font-size: 70px;
+  font-family: var(--secondary-font);
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 100px;
+  text-shadow: var(--neum);
+  margin-bottom: 16px;
 }
+
 #intro {
-  font-size: 50px;
+  font-size: 18px;
+  font-family: var(--primary-font);
+  color: var(--secondary);
 }
-#description {
-  font-size: 30px;
+
+#name {
+  color: #F39B19;
+  font-weight: 600;
 }
 
 .avatar {
-  width: 500px;
-  margin-left: -170px;
+  width: 200px;
+  height: 200px;
 }
 
 .date-time-container {
@@ -89,10 +93,10 @@ html {
 
 
 .section-header {
-  font-family: 'Nunito', sans-serif;
-  color: white;
-  font-size: 25px;
-  font-weight: 300;
+  font-family: var(--primary-font);
+  color: var(--secondary);
+  font-size: 22px;
+  font-weight: 500;
   margin: 50px;
   margin-left: 230px;
 }
@@ -135,9 +139,18 @@ html {
 }
 
 #footer {
-  color: white;
+  color: var(--secondary);
   padding-top: 100px;
   padding-bottom: 60px;
-  font-family: 'Nunito', sans-serif;
+  font-family: var(--primary-font);
   align-self: center;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#joa {
+  width: 80px;
+  margin-bottom: 20px;
 }

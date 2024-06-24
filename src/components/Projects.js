@@ -54,6 +54,7 @@ export const Projects = () => {
                 </label>
                 <div className='title'>design</div>    
             </div>
+            <div className='caption'>&lt; 🚧 currently under construction 🚧 &gt;</div>  
             <div className='caption'>Weaving digital tapestries with the threads of logic.</div>  
 
             {isDesign ? <Design /> : <Swe />}

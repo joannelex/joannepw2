@@ -1,14 +1,11 @@
 
 .topNavBar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 60px;
     padding-top: 40px;
+    justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
-
-    font-family: 'Nunito', sans-serif;
 }
 
 .name-container {
@@ -30,24 +27,24 @@
 }
 
 .nav-button {
-    font-family: 'Nunito', sans-serif;
-    background: #FFFFFF;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    background: var(--primary);
     cursor: pointer;
-    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
+    border-radius: 30px;
+    background: #E9EEF1;
+    box-shadow: var(--inner-neum);
     border: none;
-    height: 40px;
-    min-width: fit-content;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: 22px;
-    font-size: 14px;
+    padding: 16px 36px;
     color: var(--secondary); 
+    margin-right: 20px;
 }
 
 .nav-button:hover {
-    opacity: 1;
-    right: 0;
-    box-shadow: -9px 9px 9px rgba(0, 0, 0, 0.3);
-    transition: all .2s;
+    box-shadow: var(--neum);
+    transition: all 2s;
 }
+
+
+/* filter: drop-shadow(6px 6px 10px rgba(166, 180, 200, 0.75)) drop-shadow(-6px -6px 10px #FFF); */
+/* text-shadow: -6px -6px 10px #FFF, 6px 6px 10px rgba(166, 180, 200, 0.75); */
