@@ -95,7 +95,8 @@ input:checked + .slider:before {
 }
 
 .project:hover {
-    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2); */
+    box-shadow: var(--neum);
 }
 
 .projects-container-hor {
