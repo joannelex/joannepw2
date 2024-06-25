@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myCozySpace/static/css/main.9eeb7ad9.css",
+    "main.css": "/myCozySpace/static/css/main.20a82dae.css",
     "main.js": "/myCozySpace/static/js/main.248fa0ca.js",
     "static/media/ipad.svg": "/myCozySpace/static/media/ipad.a2e48403b75c76cefc851bd3b1dada37.svg",
     "static/media/jam.png": "/myCozySpace/static/media/jam.f7a1f521e2427306451b.png",
@@ -26,11 +26,11 @@
     "static/media/mail.svg": "/myCozySpace/static/media/mail.4d63786b9b51fe5fdb00a6e64743a36c.svg",
     "static/media/linkedin.svg": "/myCozySpace/static/media/linkedin.fd170463639b52111db3b291c010ce9f.svg",
     "index.html": "/myCozySpace/index.html",
-    "main.9eeb7ad9.css.map": "/myCozySpace/static/css/main.9eeb7ad9.css.map",
+    "main.20a82dae.css.map": "/myCozySpace/static/css/main.20a82dae.css.map",
     "main.248fa0ca.js.map": "/myCozySpace/static/js/main.248fa0ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eeb7ad9.css",
+    "static/css/main.20a82dae.css",
     "static/js/main.248fa0ca.js"
   ]
 }
