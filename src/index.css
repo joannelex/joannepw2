@@ -10,6 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   width: fit-content;
+  background-color: var(--main);
+  display: flex;
+  flex-direction: column;
+  transition: none;
 }
 
 code {

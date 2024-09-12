@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.nom-container {
+    /* font-family: 'space-grotesk', sans-serif; */
+    padding: 20px;
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--primary-font);
+    font-weight: 500;
+  }
+
+  .back-button-container {
+    width: 80%;
+    align-items: flex-start;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  .back-button {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    background: var(--primary);
+    cursor: pointer;
+    border-radius: 30px;
+    background: #E9EEF1;
+    box-shadow: var(--inner-neum);
+    border: none;
+    padding: 12px 26px;
+    color: var(--secondary); 
+    margin-right: 20px;
+    border: none;
+  }
+
+  .back-button:hover {
+    box-shadow: var(--neum);
+    transition: all 2s;
+  }
+
+  .nom-header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary);   
+    padding: 30px 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: var(--inner-neum);
+
+    font-family: 'space-grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+  }
+
+  .nom-awards-container {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+  }
+  
+  .nom-awards p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .nom-header-content {
+    display: flex;
+    align-items: center;
+    margin: 60px 0px;
+  }
+
+  .nom-logo-image {
+    width: 80px;
+    height: auto;
+  }
+  
+  .nom-project-info {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .nom-project-info h1{
+    font-family: "Space Grotesk", sans-serif;
+    color: #E36055;
+    font-size: 100px;
+    margin: 0px;
+  }
+
+  .nom-project-info p{
+    font-family: "Space Grotesk", sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  /* Details Section */
+  .nom-details-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+  
+  .nom-detail-row {
+    border-top: 1px solid #5d5d5d;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  
+  .nom-detail-row p {
+    margin: 5px 15px;
+  }
+  
+  /* Description Section */
+  .nom-description-section {
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    box-shadow: var(--inner-neum);
+    border-radius: 16px;
+    width: 75%;
+
+    display: flex;
+  }
+  
+  .nom-section-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    font-family: var(--secondary-font);
+  }
+  
+  .nom-why-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-bottom: 20px;
+  }
+
+  .nom-why-text-section {
+    margin-left: 80px;
+  }
+  
+  /* Chat Box Styling */
+  .nom-chat-box {
+    background-color: var(--primary);
+    padding: 40px 0px 40px 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--inner-neum);
+  }
+
+  /* How section */
+  .nom-how-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+  }
+
+  .nom-container h3{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+  }
+
+  .nom-user-flow-container {
+    box-shadow: var(--inner-neum);
+    padding: 40px;
+    border-radius: 20px;
+  }
+
+  #nom-user-flows {
+    margin-bottom: 40px;
+  }
+
+  #nom-tech-details {
+    width: 1000px;
+    height: auto;
+  }
+
+  .nom-text-container {
+    width: 75%;
+    align-items:flex-start;
+  }
+  
+  #nom-nommers-sample {
+    margin-bottom: 40px;
+  }
+
+  #nom-screens {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+
+  .nom-next-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-bottom: 20px;
+  }

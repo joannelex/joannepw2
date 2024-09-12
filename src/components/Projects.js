@@ -11,7 +11,7 @@ import { Design } from './design.js'
 
 
 export const Projects = () => {
-    const [isDesign, setShowDesign] = useState(true);
+    const [isDesign, setShowDesign] = useState(false);
 
     function handleShowDesign() {
         setShowDesign(!isDesign);

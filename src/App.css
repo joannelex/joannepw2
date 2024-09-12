@@ -2,13 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.App {
-  background-color: var(--main);
-  display: flex;
-  flex-direction: column;
-  transition: none;
-}
-
 /* ::-webkit-scrollbar {
   background-color: var(--main);
   transition: all .3s;
