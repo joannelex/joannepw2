@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom';
 export const Swe = () => {
     return(
         <div className='projects-inner-container'>
-
                 <div className='project'>
+                    <div style={{fontWeight:800, color:"#E36055"}}>Click me!</div>
                     <Link to="/nom" className='project-link'>
                         <div className='title'>NOM</div>
                         <img src={ nomMockImg } className="project-img-mobile" id='#nomMockImg' alt="nom"/>
